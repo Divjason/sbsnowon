@@ -1,0 +1,73 @@
+html :
+- h / p / a / ul / li / table / semantic
+
+css : 선택자
+- 전체선택자 : *
+- 태그선택자
+- id / class 선택자
+- 속성선택자
+- 후손 / 자손 선택자
+- 동위선택자
+- 반응선택자
+- 구조선택자 : 일반구조 & 형태구조
+- 상태선택자 
+- 링크선택자
+- 문자선택자
+- 부정선택자
+
+css : 속성
+- color : 문자 // hex: 6각형 => r:00 g:00 b:00 // rgba()
+0 ~ f
+- 10진법 => 10진수
+- 16진수 => 0 ~ 9 a ~ f
+- rgba( )
+
+- display : block / inline / inline-block / block / none
+
+- visiblity : hidden => 요소를 보이지 않도록 // 공간 살려둠
+
+- box-sizing : border-box // content-box
+
+- position : static / relative / absolute / fixed / sticky
+
+- float : 부유하다 // 둥둥떠다니다
+
+- flex
+
+1) 부모 & 자식
+- 반드시 부모요소 : display: flex
+- 부모요소에서 적용 스타일 속성
+1) 중심축의 방향 : flex-direction : row (*기본) // column
+- 중심축을 기준으로 정렬 : justify-content : center / flex-start / flex-end
+> space-between // space-around // space-evenly : 형제 요소들 각각을 맨 끝으로 정렬 (*좌.우)
+
+- 교차축을 기준으로 정렬 : align-items : center / flex-start / flex-end
+> space-between // space-around // space-evenly : 형제 요소들 각각을 맨 끝으로 정렬 (*좌.우)
+
+- 자식요소들의 간격 : gap
+
+- 자식요소들의 너비 보장 : flex-wrap : wrap (*자식요소의 너비값을 무조건 보장 // 부모요소의 전체 너비가 자식요소의 너비보다 작아지는 상황이 되면, 자동으로 줄바꿈!!! < - > no-wrap (*기본값)
+
+2) 중심축 & 교차축
+- default : 중심축 (*가로) // 교차축 (*세로)
+
+- 자식요소에서 적용 스타일 속성
+> flex-flow : 부모요소의 너비값을 자식요소들이 몇 %의 비율로 나눠가질지 결정하는 속성
+> flex-shrink : 부모요소의 전체 너비가 줄어들 때, 얼만큼의 비율로 줄어들게 할지 결정하는 속성
+> flex-basis : 부모요소 안에 있는 자식요소들의 너비값을 기본 몇 px로 결정할지
+> flex : 1 1 auto  // flex: 1
+
+
+
+
+
+js : jQuery / JS
+
+웹 브라우저가 html 문서 읽는(*parsing)
+
+네비게이션 메뉴 기능 구현!!!
+슬라이드 기능 구현!!!
+레이아웃 설정 구현!!!
+포토샵을 활용해서 이미지 편집
+
+https://github.com/Divjason/sbsnowon
